@@ -60,12 +60,11 @@
                                     <ul class="dropdown">
                                         <li><a href="#">Air Freight</a></li>
                                         <li><a href="#">Ocean Freight</a></li>
-                                        <li><a href="#">Ground Shipping</a></li>
                                         <li><a href="#">Warehousing</a></li>
-                                        <li><a href="#">Storage</a></li>
+                                        <li><a href="{% url 'logistics:services' %}">more services</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="{% url 'logistics:industries' %}">Industries</a></li>
+                                <li><a href="{% url 'logistics:industries' %}">Track Your Goods</a></li>
                                 <li><a href="#">Blog</a></li>
                                 <li><a href="{% url 'logistics:contact' %}">Contact</a></li>
                             </ul>
